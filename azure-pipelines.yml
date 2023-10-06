@@ -1,4 +1,7 @@
 # Starter pipeline
+- task: PowerShell@2
+  inputs:
+    filePath: '/scheduleCleanUp.ps1'
 - task: AzurePowerShell@5
   inputs:
     ScriptType: 'FilePath'
